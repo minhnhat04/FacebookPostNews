@@ -1,0 +1,134 @@
+<div class="div_from_content_my_acc">
+  {{! Nội dung 1 }}
+  <div class="content_1_my_acc">
+    <div class="in_content_1_my_acc">
+      <div class="table_admin">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Vị trí</th>
+              <th>Xóa</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{#each users}}
+              <tr>
+                <td>{{name}}</td>
+                <td>{{email}}</td>
+                <td>{{identity}}</td>
+                <td>
+                  <form action="/user/deleteUser" method="post">
+                    <input type="hidden" name="userId" value="{{_id}}" />
+                    <button class="delete" type="submit"><i class="fa-solid fa-trash"></i></button>
+                  </form>
+                </td>
+              </tr>
+            {{/each}}
+          </tbody>
+        </table>
+      </div>
+      <hr />
+    </div>
+  </div>
+
+  {{! Nội dung 2 }}
+  <div class="content_2_my_acc_admin">
+    <div class="from_my_acc">
+      <div class="from_content_my_acc">
+        <div class="img_my_acc">
+          <img src="../img/Facebook-Avatar_3 (1).png" alt="" />
+        </div>
+        <h2>
+          {{user.name}}
+        </h2>
+      </div>
+    </div>
+    {{#each posts}}
+      <div class="sum_content_post_my_acc">
+        <div class="content_post">
+          <div class="from_content_post_user">
+            <div class="content_user_1">
+              <div class="avata_user_post">
+                <img src="../img/avta3.jpg" alt="" />
+              </div>
+              <div class="name_user_post">
+                <div class="name_u_p">
+                  Hoài Nhi
+                </div>
+                <div class="time_post">
+                  {{createdAt}}
+                </div>
+              </div>
+            </div>
+            <div class="menu_post">
+              <button><i class="fa-solid fa-ellipsis"></i></button>
+              <form action="/posts/deletePost" method="post">
+                <input type="hidden" name="postId" value="{{_id}}" />
+                <button type="submit"><i class="fa-solid fa-xmark"></i></button>
+              </form>
+              <button><i class="fa-solid fa-check"></i></button>
+            </div>
+          </div>
+          <a href="/posts/{{_id}}">
+            <div class="div_content_post_user">
+              <div class="content_post_user">
+                {{! Hiển thị nội dung của bài đăng }}
+                {{content}}
+                <a href="/posts/{{_id}}">
+                  <strong>Xem thêm</strong>
+                </a>
+              </div>
+              <div class="img_content_post_user">
+                <img src="{{img}}" alt="" />
+              </div>
+            </div>
+          </a>
+          <div class="from_menu_cs_bl_cs">
+            <div class="div_from_menu_cs_bl_sh">
+              <div class="from_cs">
+                <div class="content_cs">
+                  <img class="iconlike" src="../img/iconlike.png" alt="" />
+                  <img class="iconhaha" src="../img/iconhaha.png" alt="" />
+                </div>
+                <div class="pepole_cs">
+                  Minh và 36 người khác
+                </div>
+              </div>
+              <div class="from_sh">
+                <div>
+                  1
+                  <i class="fa-solid fa-message"></i>
+                </div>
+                <div>
+                  2
+                  <i class="fa-solid fa-share"></i>
+                </div>
+              </div>
+            </div>
+            <hr />
+          </div>
+          <div class="div_form_like_bl_share">
+            <div class="form_like_bl_share">
+              <div class="form_like">
+                <i class="fa-regular fa-thumbs-up"></i>
+                Thích
+              </div>
+              <div class="form_bl">
+                <i class="fa-solid fa-message"></i>
+                Bình luận
+              </div>
+              <div class="form_share">
+                <i class="fa-solid fa-share"></i>
+                Chia sẽ
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+
+  {{! Nội dung 3 }}
+</div>

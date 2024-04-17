@@ -1,0 +1,15 @@
+<div class="container mt-3">
+    <div class="row g-2">
+        {{#each posts}}
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 text-body-secondary">{{content}}</h6>
+                        <img src="{{img}}" alt="">
+                        <a href="/posts/{{_id}}" class="card-link">{{_id}}</a>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</div>

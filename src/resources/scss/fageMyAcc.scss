@@ -1,0 +1,85 @@
+.div_from_content_my_acc {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    margin-top: 40px;
+    background-color: #F0F2F5;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.from_content {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    margin-top: 40px;
+    background-color: #F0F2F5;
+    display: flex;
+    justify-content: space-between;
+}
+.in_content_1_my_acc{
+    padding: 5px 0 0 20px;
+}
+.delete{
+    background-color: white;
+    border: none;
+}
+.delete i{
+    font-size: 20px;
+    color: red;
+}
+.table_admin{
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+}
+.content_1_my_acc{
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    z-index: 1;
+}
+.content_2_my_acc{
+    width: 40%;
+    height: 100%;
+    padding: 20px 0 25px 25px;
+    position: relative;
+    margin: auto;   
+}
+.content_2_my_acc_admin{
+    width: 40%;
+    height: 100%;
+    padding: 20px 10px 25px 25px;
+    position: relative;
+}
+.from_content_my_acc{
+    padding: 5px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.from_content_my_acc h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.img_my_acc{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden; 
+    position: relative; 
+}
+.img_my_acc img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.sum_content_post_my_acc{
+    margin: auto;
+    width: 100%;
+    padding-top: 20px;
+}

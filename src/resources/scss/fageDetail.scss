@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div_form_detail{
+    margin-top: 50px;
+    width: 100%;
+    // background-color: aqua;
+    display: flex;
+}
+.div_form_img_detail{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+.div_content_fb_detail{
+    width: 20%;
+    padding: 20px;
+}
+.exit i{
+    font-size: 25px;
+    color: white;
+}
+.div_content_img_detail{
+    width: 70%;
+}
+.form_content_img_detail{
+    display: flex;
+    justify-content: center; 
+    width: 100%; 
+    height: 652px; 
+    overflow: hidden; 
+    position: relative; 
+}
+.form_content_img_detail img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.div_content_menu_detail{
+    width: 20%;
+    padding: 20px 20px 0 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.div_content_menu_detail i{
+    color: white;
+    font-size: 20px;   
+}
+.div_form_bl_deatil{
+    width: 30%;
+    height: 100%;
+}
+.form_bl_detail{
+    padding: 10px 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form_bl_detail i{
+    font-size: 25px;
+}
+.form_avata_name_detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+}
+.form_avata_detial{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden; 
+    border: 4px solid #075CE5;
+}
+.form_avata_detial img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.div_form_nd_detail{
+    padding: 10px 20px 20px 25px;
+}
+.div_form_like_bl_share_detail{
+    padding: 0 10px 0 10px;
+}
+.from_menu_cs_bl_cs_detail{
+    padding: 0 20px 0 20px;
+}

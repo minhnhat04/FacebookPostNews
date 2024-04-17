@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 150px;
+}
+
+.user_card {
+  width: 400px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: #ffffff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.brand_logo_container {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  top: -75px;
+  border-radius: 50%;
+  background: #60a3bc;
+  padding: 10px;
+  text-align: center;
+}
+
+.brand_logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.form_container {
+  margin-top: 100px;
+}
+
+.login_btn {
+  width: 100%;
+  background: #c0392b !important;
+  color: white !important;
+}
+
+.login_btn:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+
+.from-login {
+  width: 100%;
+}
+
+.input-group input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #DDDFE2;
+  padding-left: 15px;
+  font-size: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.login_btn_button {
+  background-color: #1877F2;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  height: 45px;
+  border-radius: 10px;
+}
+
+.sign_btn_button {
+  background-color: #36A420;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  height: 45px;
+  border-radius: 10px;
+  padding: 0 10px 0 10px;
+}
+
+.links {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+hr {
+  width: 100%;
+}
+
+/*# sourceMappingURL=fageSign.css.map */
