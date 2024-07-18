@@ -6,7 +6,6 @@ import route from './src/router/index.router.js';
 import cookieParser from 'cookie-parser'; // import cookie-parser to use req.cookies
 import dotenv from 'dotenv';  // Import dotenv
 
-
 const app = express();
 
 const setShowHeader = (req, res, next) => {

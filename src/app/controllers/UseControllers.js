@@ -4,7 +4,7 @@ import { ObjectId } from "mongodb";
 import bcrypt from 'bcryptjs';
 import Auth from "../helpers/Auth.js";
 import jwt from 'jsonwebtoken'; // hoặc const jwt = require('jsonwebtoken');
-
+import Post from '../models/Post.js'
 
 
 class UserController {
