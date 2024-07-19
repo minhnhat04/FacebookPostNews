@@ -1,7 +1,7 @@
 import User from "../../models/User.js";
 import connection from "../../../config/db/index.js";
 import { ObjectId } from "mongodb";
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 
 class UserController {
 
